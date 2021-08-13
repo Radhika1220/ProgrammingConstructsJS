@@ -1,3 +1,4 @@
+//4.Flip the coin using random function
 var coin=Math.floor(Math.random()* 2)+1;
 console.log(coin);
 if(coin==1)

@@ -1,3 +1,4 @@
+//1.Read the 5 random integers and prnt minimum and maximum value
 let min_val=Math.min();
 let max_val=Math.max();
 for(var i=1;i<=5;i++)
