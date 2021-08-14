@@ -1,53 +1,45 @@
 //1.read the number and corresponding digit as word in alert box
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<script>
+var prompt = require("prompt-sync")();
      var number = window.prompt("Enter the number between 1 to 10");
         if(number == 0)
         {
-            alert("The number is :Zero");
+           console.log("The number is :Zero");
         }
         else if(number == 1)
         {
-            alert("The number is :One");
+            console.log("The number is :One");
         }
         else if(number == 2)
         {
-            alert("The number is :Two");
+            console.log("The number is :Two");
         }
         else if(number == 3)
         {
-            alert("The number is :Three");
+            console.log("The number is :Three");
         }
         else if(number == 4)
         {
-            alert("The number is :Four");
+           console.log("The number is :Four");
         }else if(number == 5)
         {
-            alert("The number is :Five");
+        console.log("The number is :Five");
         }
         else if(number == 6)
         {
-            alert("The number is :Six");
+          console.log("The number is :Six");
         }else if(number == 7)
         {
-            alert("The number is :Seven");
+            console.log("The number is :Seven");
         }
         else if(number == 8)
         {
-            alert("The number is :Eight");
+            console.log("The number is :Eight");
         }
         else if(number == 9)
         {
-            alert("The number is :Nine");
+            console.log("The number is :Nine");
         }
         else
         {
-            alert("Invalid number");
+          console.log("Invalid number");
         }
-</script>
-<body>
-</body>
-</html>
