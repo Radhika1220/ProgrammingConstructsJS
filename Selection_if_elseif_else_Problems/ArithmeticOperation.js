@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<script>
-    let num1 = window.prompt("Enter number 1:");
-    let num2 = window.prompt("Enter number 2:");
-    let num3 = window.prompt("Enter number 3:");
+var prompt = require("prompt-sync")();
+    let num1 =prompt("Enter number 1:");
+    let num2 = prompt("Enter number 2:");
+    let num3 = prompt("Enter number 3:");
 
     let res1 = (num1+num2)*num3;
     let res2 = (num1%num2)+num3;
@@ -46,8 +42,4 @@ else
 {
     largest=res4;
 }
- alert("Result of Expression 1: "+res1+"\nResult of Expression 2: "+res2+"\nResult  of Expression 3: "+res3+"\nResult  of Expression 4:"+res4+"\n\nMaximum value is: "+largest+"\nSmallest value is: "+smallest);
-</script>
-<body>
-</body>
-</html>
+ console.log("Result of Expression 1: "+res1+"\nResult of Expression 2: "+res2+"\nResult  of Expression 3: "+res3+"\nResult  of Expression 4:"+res4+"\n\nMaximum value is: "+largest+"\nSmallest value is: "+smallest);
